@@ -14,3 +14,4 @@ public class GreetingImpl2 {
 		System.out.println(message2);
 	}
 }
+ 

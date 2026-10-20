@@ -14,4 +14,4 @@ public class CalculatorImpl {
 		System.out.println("Third sum " + calculator3.sum(90, 80));
 	}
 
-}
+} 
