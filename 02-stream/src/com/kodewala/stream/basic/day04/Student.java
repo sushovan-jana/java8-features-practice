@@ -1,4 +1,4 @@
-package com.kodewala.stream.day04;
+package com.kodewala.stream.basic.day04;
 
 public class Student {
 	
