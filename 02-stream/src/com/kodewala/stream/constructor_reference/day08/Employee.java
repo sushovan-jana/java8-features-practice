@@ -12,6 +12,12 @@ public class Employee {
 		super();
 		this.id = id;
 	}
+	
+
+	public Employee(String name) {
+		super();
+		this.name = name;
+	}
 
 	public Employee(int id, String name) {
 		super();
@@ -19,12 +25,12 @@ public class Employee {
 		this.name = name;
 	}
 
-	public int getId() {
+	public double getId() {
 		return id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int d) {
+		this.id = d;
 	}
 
 	public String getName() {
