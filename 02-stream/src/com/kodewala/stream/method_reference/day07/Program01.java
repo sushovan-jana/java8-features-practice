@@ -1,4 +1,4 @@
-package com.kodewala.stream.basic.day05;
+package com.kodewala.stream.method_reference.day07;
 
 import java.util.ArrayList;
 import java.util.List;

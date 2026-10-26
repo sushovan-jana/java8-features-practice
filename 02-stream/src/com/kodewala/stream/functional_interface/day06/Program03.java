@@ -1,4 +1,4 @@
-package com.kodewala.stream.basic.day07;
+package com.kodewala.stream.functional_interface.day06;
 
 import java.util.ArrayList;
 import java.util.function.BiConsumer;

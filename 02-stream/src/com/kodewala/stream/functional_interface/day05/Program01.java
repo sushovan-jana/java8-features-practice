@@ -1,4 +1,4 @@
-package com.kodewala.stream.basic.day04;
+package com.kodewala.stream.functional_interface.day05;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;

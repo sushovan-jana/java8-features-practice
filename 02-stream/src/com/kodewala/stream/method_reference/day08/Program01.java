@@ -1,4 +1,4 @@
-package com.kodewala.stream.basic.day06;
+package com.kodewala.stream.method_reference.day08;
 /**
  * method reference
  */
