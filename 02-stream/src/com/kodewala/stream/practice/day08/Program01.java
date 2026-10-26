@@ -11,7 +11,7 @@ import com.kodewala.stream.constructor_reference.day08.Employee;
  * 2. Function with a lambda and with a constructor reference (Employee::new)
  * 3. A stream pipeline that converts names into Employee objects
  *
- * @author  Your Name
+ * @author  Sushovan
  * @version 1.0
  * @since   2026-10-26
  * @see     com.kodewala.stream.constructor_reference.day08.Employee
