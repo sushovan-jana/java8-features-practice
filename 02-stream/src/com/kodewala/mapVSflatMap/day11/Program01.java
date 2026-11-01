@@ -37,7 +37,7 @@ public class Program01 {
 		/**
 		 * Want to take all the inner list / nested lists inside a 
 		 * one big outer list...
-		 * In plain java -> we call it flattering
+		 * In plain java -> we call it flattening
 		 */
 		List<Integer> mergedList = new ArrayList<>();
 		for(List<Integer> li : nestedList) {
