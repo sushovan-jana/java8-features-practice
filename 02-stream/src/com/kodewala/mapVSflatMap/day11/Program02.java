@@ -28,7 +28,7 @@ public class Program02 {
 		 */
 		List<Integer> strToInt = strToInt(listOfStrings, funStrToInt);
 		System.out.println(strToInt);
-
+ 
 	}
 	
 	/**
