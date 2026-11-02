@@ -41,6 +41,7 @@ public class Program04 {
 	public static void main(String[] args) {
 
 		List<Integer> phoneList1 = List.of(987654321, 912345678);
+		// FIX 1: Changed reference type from Employee to Student
 		Student student1 = new Student("Sushovan", phoneList1);
 
 		List<Integer> phoneList2 = List.of(998877665);
@@ -64,6 +65,7 @@ public class Program04 {
 		List<Integer> phoneList8 = List.of(988112233);
 		Student student8 = new Student("Bubun", phoneList8);
 		
+		// FIX 2: Changed list generic type from Employee to Student
 		List<Student> studentList = new ArrayList<>();
 		studentList.add(student1);
 		studentList.add(student2);
@@ -75,6 +77,7 @@ public class Program04 {
 		studentList.add(student8);
 		System.out.println(studentList);
 
+		// FIX 3: Changed Function input parameter from Employee to Student
 		Function<Student, List<Integer>> funStuToListOfInt = new Function<>() {
 			
 			@Override
@@ -83,8 +86,6 @@ public class Program04 {
 				return phoneNumber;
 			}
 		};
-//		List<Integer> phoneNumbers = funStuToListOfInt.apply(student6);
-//		System.out.println(phoneNumbers);
 		
 		List<Integer> phoneNumListOfEachStudent = flatMap(studentList, funStuToListOfInt);
 		System.out.println(phoneNumListOfEachStudent);
